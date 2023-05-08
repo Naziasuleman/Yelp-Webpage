@@ -459,8 +459,68 @@ p {
   height: 500px;
   width: 100%;
   position: absolute;
-  top: 2500px;
+  top: 2450px;
   left: 0px;
   font-weight: bold;
   text-align: center;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8 {
+  height: 250px;
+  width: 330px;
+  position: absolute;
+  border: 2px solid rgb(230, 225, 225);
+  align-items: center;
+  margin: 60px;
+  left: 100px;
+  float: left;
+}
+
+.img1 {
+  margin: 50px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+
+.title {
+  margin: 90px;
+  padding-top: 40px;
+  padding-left: 5px;
+  font-size: 24px;
+  color: rgb(80, 78, 78);
+}
+
+.box2 {
+  left: 480px;
+}
+.box3 {
+  left: 860px;
+}
+.box4 {
+  left: 1240px;
+}
+
+.box5 {
+  left: 100px;
+  top: 400px;
+}
+.box6 {
+  left: 480px;
+  top: 400px;
+}
+.box7 {
+  left: 860px;
+  top: 400px;
+}
+.box8 {
+  left: 1240px;
+  top: 400px;
 }
