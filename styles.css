@@ -312,7 +312,7 @@ main {
   position: absolute;
   top: 860px;
   left: 0px;
-
+  font-weight: bold;
   text-align: center;
 }
 
@@ -453,4 +453,14 @@ p {
 .bottom2 {
   top: 1400px;
   left: 750px;
+}
+
+.components {
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  top: 2500px;
+  left: 0px;
+  font-weight: bold;
+  text-align: center;
 }
