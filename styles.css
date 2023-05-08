@@ -252,7 +252,7 @@ button {
 
 .dropbtn4 {
   float: right;
-  margin-right: 100px;
+  margin-right: 80px;
   width: 130px;
   background-color: #dc0a0a;
   color: rgb(255, 255, 255);
@@ -305,4 +305,152 @@ button {
 
 main {
   position: relative;
+}
+.recent {
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  top: 860px;
+  left: 0px;
+
+  text-align: center;
+}
+
+.card1 {
+  border: 2px solid rgb(230, 225, 225);
+  height: 570px;
+  width: 500px;
+  left: 150px;
+  margin-top: 100px;
+  position: absolute;
+  text-align: left;
+}
+
+.profile {
+  position: absolute;
+  border-radius: 50px;
+  height: 60px;
+  width: 60px;
+  margin: 30px;
+}
+
+h3 {
+  position: absolute;
+  text-align: left;
+  margin-left: 100px;
+  top: 10px;
+  font-size: 20px;
+}
+
+p {
+  position: absolute;
+  margin-left: 100px;
+  top: 45px;
+}
+
+.link {
+  position: absolute;
+  color: #1285d1;
+  font-weight: bold;
+  top: 120px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.images {
+  position: inherit;
+  float: left;
+  top: 180px;
+  left: 20px;
+}
+
+.sec1 {
+  width: 220px;
+  height: 310px;
+  border: 2px solid rgb(230, 225, 225);
+  float: left;
+}
+
+.sec2 {
+  width: 220px;
+  height: 310px;
+  border: 2px solid rgb(230, 225, 225);
+  float: left;
+  margin-left: 20px;
+}
+
+.icon_svg {
+  margin: 10px;
+  top: 10px;
+}
+
+.bottom {
+  position: relative;
+  top: 490px;
+}
+
+.card3 {
+  border: 2px solid rgb(230, 225, 225);
+  height: 570px;
+  width: 500px;
+  left: 1215px;
+  margin-top: 100px;
+  position: absolute;
+  text-align: left;
+}
+.card2 {
+  border: 2px solid rgb(230, 225, 225);
+  height: 570px;
+  width: 500px;
+  left: 685px;
+  margin-top: 100px;
+  position: absolute;
+  text-align: left;
+}
+
+.imagess {
+  position: inherit;
+  float: left;
+  top: 180px;
+}
+
+.card4 {
+  border: 2px solid rgb(230, 225, 225);
+  height: 570px;
+  width: 500px;
+  left: 150px;
+  top: 700px;
+  margin-top: 100px;
+  position: absolute;
+  text-align: left;
+}
+
+.card5 {
+  border: 2px solid rgb(230, 225, 225);
+  height: 570px;
+  width: 500px;
+  left: 685px;
+  top: 700px;
+  margin-top: 100px;
+  position: absolute;
+  text-align: left;
+}
+
+.bottom1 {
+  top: 310px;
+}
+
+.card6 {
+  border: 2px solid rgb(230, 225, 225);
+  height: 570px;
+  width: 500px;
+  left: 1215px;
+  margin-top: 100px;
+  position: absolute;
+  text-align: left;
+  top: 700px;
+}
+
+.bottom2 {
+  top: 1400px;
+  left: 750px;
 }
