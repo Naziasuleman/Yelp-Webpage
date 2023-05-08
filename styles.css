@@ -1,32 +1,31 @@
 body {
   margin: 0px;
-  display: flex;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 .hero-section {
-  background-image: url("images/image1.jpg");
   background-size: cover;
   height: 100vh;
   width: 100%;
-
+  background-image: url("images/image1.jpg");
+  opacity: 0;
   animation-name: change-background;
-  animation-duration: 40s;
-  animation-timing-function: linear;
-  animation-delay: 10s;
+  animation-duration: 50s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
   animation-iteration-count: infinite;
 }
-
 @keyframes change-background {
   0% {
+    background-image: url("images/image1.jpg");
     opacity: 1;
   }
   33.33% {
-    opacity: 0;
     background-image: url("images/image2.jpg");
     opacity: 1;
   }
 
   66.66% {
-    opacity: 0;
     background-image: url("images/image3.jpg");
     opacity: 1;
   }
@@ -36,4 +35,274 @@ body {
     background-image: url("images/image4.jpg");
     opacity: 1;
   }
+}
+.hero-text {
+  font-size: 64px;
+  color: white;
+  font-weight: bold;
+  font-family: Poppins, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 200px;
+}
+
+.hero-text::before {
+  content: "Nothing like a new coat of paint";
+  position: absolute;
+  width: 580px;
+  opacity: 0;
+  animation-name: change-text;
+  animation-delay: 0s;
+  animation-duration: 50s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes change-text {
+  0% {
+    content: "Nothing like a new coat of paint";
+    opacity: 1;
+  }
+  33.33% {
+    content: "Need to Chill?";
+    opacity: 1;
+  }
+  66.6% {
+    opacity: 0;
+    content: "Keep your car feeling fresh";
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    content: "Make a Splash";
+    opacity: 1;
+  }
+}
+.hero-btn {
+  font-size: 28px;
+  color: white;
+  font-family: Poppins, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 200px;
+  margin-top: 160px;
+  width: 250px;
+  text-align: left;
+}
+
+.hero-btn::before {
+  content: "Painters";
+  position: absolute;
+  width: 200px;
+  opacity: 0;
+  padding-left: 50px;
+  animation-name: change-btn;
+  animation-delay: 0s;
+  animation-duration: 50s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes change-btn {
+  0% {
+    content: "Painters";
+    opacity: 1;
+  }
+  33.33% {
+    content: "HVAC";
+    opacity: 1;
+  }
+  66.6% {
+    content: "Auto Detailing";
+    opacity: 1;
+  }
+  100% {
+    content: "Pool Service";
+    opacity: 1;
+  }
+}
+
+body {
+  margin: 0px;
+  display: flex;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav {
+  margin-top: 30px;
+}
+
+.logo {
+  margin-left: 40px;
+  width: 10%;
+  height: 60px;
+  float: left;
+}
+
+form {
+  margin-top: 5px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.search1 {
+  float: left;
+  width: 300px;
+  padding: 20px;
+  border: 2px solid rgb(241, 238, 238);
+  border-radius: 5px 0px 0px 5px;
+}
+
+.search2 {
+  float: left;
+  width: 300px;
+  padding: 20px;
+  border: 2px solid rgb(241, 238, 238);
+}
+
+input[type="text"]::placeholder {
+  font-size: 20px;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+button {
+  float: left;
+  width: 80px;
+  padding: 16px;
+  background-color: #dc0a0a;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.icon path {
+  fill: #ffffff;
+}
+
+.dropbtn {
+  float: left;
+  margin-left: 20px;
+  width: 250px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.dropbtn:active {
+  border: 3px solid #75b7e4;
+}
+.dropbtn:hover {
+  background-color: #c7baba;
+}
+
+.dropdown-content {
+  width: 300px;
+  display: none;
+  margin-top: 100px;
+  margin-left: 50px;
+  font-weight: normal;
+  background-color: #ffffff;
+  position: absolute;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: rgb(7, 7, 7);
+  text-decoration: none;
+  display: block;
+}
+
+.dropbtn2 {
+  float: left;
+  position: absolute;
+  margin-left: 250px;
+  width: 200px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.dropbtn2:active {
+  border: 3px solid #75b7e4;
+}
+.dropbtn2:hover {
+  background-color: #c7baba;
+}
+
+.dropbtn3 {
+  float: left;
+  position: absolute;
+  margin-left: 460px;
+  width: 130px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border: 4px solid white;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.dropbtn4 {
+  float: right;
+  margin-right: 100px;
+  width: 130px;
+  background-color: #dc0a0a;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border: 4px solid #dc0a0a;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.restaurants {
+  margin-left: 200px;
+}
+.btn1 {
+  float: left;
+  width: 200px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: normal;
+}
+
+.btn11 {
+  float: left;
+  width: 160px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: normal;
+}
+.clear {
+  clear: both;
+}
+
+.line {
+  width: 12px;
+  height: 80px;
+  margin-top: 9px;
+  background-color: rgb(253, 253, 253);
+  margin-left: 140px;
+  border-radius: 10px;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+main {
+  position: relative;
 }
