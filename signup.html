@@ -13,12 +13,9 @@
     </nav>
 
     <div>
-      <div class="login">
-        <h2 style="font-size: 28px">Log in to Yelp</h2>
-        <h3 style="color: black">
-          New To Yelp?
-          <span style="color: #1285d1; margin-top: 0px">Sign up</span>
-        </h3>
+      <div class="signup">
+        <h2 style="font-size: 28px">Sign up for Yelp</h2>
+        <h3 style="color: black">Connect with great local businesses</h3>
         <p style="color: black">
           By continuing, you agree to Yelp’s
           <span style="color: #1285d1; margin-top: 0px">Terms of Service</span>
@@ -56,40 +53,92 @@
           Continue with Google
         </button>
         <button class="facebook-button3">Continue with Apple</button>
-        <h3 style="color: black; position: absolute; top: 720px; left: 470px">
+        <h3 style="color: black; position: absolute; top: 560px; left: 470px">
           OR
         </h3>
-        <form>
+        <form style="top: 25px">
           <input
-            style="position: absolute; top: 2px; left: 310px"
+            style="width: 180px; left: 310px"
+            type="text"
+            placeholder="FirstName"
+          />
+          <input
+            style="width: 180px; left: 310px"
+            type="text"
+            placeholder="LastName"
+          />
+          <input
+            style="position: absolute; top: 50px; left: 310px"
             type="text"
             placeholder="Email"
           />
           <input
-            style="position: absolute; top: 50px; left: 310px"
+            style="position: absolute; top: 100px; left: 310px"
             type="password"
             placeholder="password"
           />
-          <p
-            style="color: #1285d1; position: absolute; top: 230px; left: 540px"
+          <input
+            style="position: absolute; top: 150px; left: 310px"
+            type="number"
+            placeholder="ZIP code"
+          />
+          <h3 style="color: black; position: absolute; top: 330px; left: 310px">
+            Birthday <span style="color: rgb(204, 198, 198)">Optional</span>
+          </h3>
+          <select
+            style="position: absolute; top: 390px; left: 310px"
+            id="month"
+            name="Month"
           >
-            Forget password?
-          </p>
+            <option value="Month">Month</option>
+            <option value="January">January</option>
+            <option value="Feb">Feb</option>
+            <option value="March">March</option>
+          </select>
+
+          <select
+            style="position: absolute; top: 390px; left: 440px"
+            id="month"
+            name="Day"
+          >
+            <option value="Day">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+
+          <select
+            style="position: absolute; top: 390px; left: 570px"
+            id="month"
+            name="Year"
+          >
+            <option value="Year">Year</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2024">2024</option>
+          </select>
+
           <button
             style="
               padding-left: 130px;
               color: white;
               background-color: #dc0a0a;
-              top: 280px;
+              top: 450px;
             "
             class="facebook-button2"
           >
-            Log in
+            Sign up
           </button>
           <p
-            style="color: #afb1b4; position: absolute; top: 350px; left: 520px"
+            style="color: #afb1b4; position: absolute; top: 520px; left: 520px"
           >
-            New to Yelp? <span style="color: #1285d1">Sign Up</span>
+            Already on Yelp? <span style="color: #1285d1">Log in</span>
           </p>
         </form>
       </div>
