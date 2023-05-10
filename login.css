@@ -32,7 +32,6 @@ nav img {
   height: 70px;
   background-color: #1877f2;
   width: 380px;
-  padding-left: 25px;
   font-size: 20px;
   border: 1px solid #1877f2;
   border-radius: 5px;
@@ -61,12 +60,12 @@ nav img {
 .facebook-button3 {
   position: relative;
   top: 78px;
-  padding-top: 20px;
   left: 310px;
   background-color: rgb(20, 20, 20);
   border: 1px solid #d0d0d4;
   color: rgb(248, 247, 247);
   display: flex;
+  text-align: center;
 }
 
 form {
