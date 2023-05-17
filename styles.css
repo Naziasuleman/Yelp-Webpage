@@ -545,7 +545,7 @@ footer ul li {
   color: #868181;
   padding: 6px;
 }
-.footer-heading {
+ul li:first-child {
   padding-bottom: 20px;
   font-weight: bold;
   color: black;
