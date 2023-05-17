@@ -95,11 +95,15 @@ footer ul {
   margin-top: 80px;
   margin-left: 100px;
 }
-footer ul li {
+footer li {
   list-style-type: none;
   font-size: 20px;
   color: #868181;
   padding: 6px;
+}
+footer li:hover {
+  text-decoration: underline;
+  color: #756d6d;
 }
 ul li:first-child {
   padding-bottom: 20px;
